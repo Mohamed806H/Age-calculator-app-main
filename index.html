@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <header class="app__header bg-white">
+      <section class="app__header-section-top">
+        <form action="" class="d-flex flex-column">
+          <div class="div-day d-flex flex-column">
+            <label for="Day-Input" class="day-label">DAY</label>
+            <input
+              type="number"
+              name="Day-Input"
+              id="Day-Input"
+              placeholder="DD"
+            />
+            <span class="error"></span>
+          </div>
+          <div class="div-month d-flex flex-column">
+            <label for="" class="month-label">MONTH</label>
+            <input type="number" name="" id="Month-Input" placeholder="MM" />
+            <span class="error"></span>
+          </div>
+          <div class="div-year d-flex flex-column">
+            <label for="" class="year-label">YEAR</label>
+            <input type="number" name="" id="Year-Input" placeholder="YYYY" />
+            <span class="error"></span>
+          </div>
+        </form>
+      </section>
+      <section class="app__header-section-center">
+        <div class="line"></div>
+        <div class="submit">
+          <button type="submit" id="submit-btn">
+            <img src="./assets/images/icon-arrow.svg" alt="icon-arrow" />
+          </button>
+        </div>
+      </section>
+      <section class="app__header-section-bottom">
+        <p class="years"><span class="span-year">--</span>years</p>
+        <p class="months"><span class="span-month">--</span>months</p>
+        <p class="days"><span class="span-day">--</span>days</p>
+      </section>
+    </header>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
