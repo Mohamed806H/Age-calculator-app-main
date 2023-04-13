@@ -8,8 +8,8 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## Links
 
-- Solution URL:()
-- Live Site URL:()
+- Solution URL:(https://www.frontendmentor.io/solutions/agecalculatorappmain-VrvRCAxX1b)
+- Live Site URL:(https://mohamed806h.github.io/Age-calculator-app-main/)
 
 ## Built with
 
